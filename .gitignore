@@ -1,0 +1,63 @@
+# ==========================================
+# 1. Compilação Java e Ferramentas de Build
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+backend/target/
+target/
+
+# Gradle (caso utilize)
+backend/build/
+backend/.gradle/
+.gradle/
+build/
+
+# ==========================================
+# 2. Configurações de IDEs e Editores
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.settings/
+.classpath
+.project
+.factorypath
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+
+# ==========================================
+# 3. Arquivos do Sistema Operacional
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+ehthumbs.db
+
+# ==========================================
+# 4. Logs, Temporários e Variáveis de Ambiente
+# ==========================================
+*.log
+*.tmp
+*.swp
+.env
+.env.local
