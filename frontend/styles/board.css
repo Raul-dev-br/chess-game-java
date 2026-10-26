@@ -1,0 +1,44 @@
+.board{
+  --board-size: 43rem;
+  --square-size: 5.5rem;
+  max-width: var(--board-size);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  aspect-ratio: 1/1;
+}
+.square{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.square img{
+  width: var(--chess-piece-size);
+}
+.white-color{
+  background-color: #EEEEEB;
+}
+.black-color{
+  background-color: #33694B;
+}
+.red-color{
+  background-color: #D36C50;
+}
+.selecionado{
+  background-color: #B9CA43;
+}
+.edge-top-left{
+  border-top-left-radius: var(--rd-edge);
+}
+.edge-top-right{
+  border-top-right-radius: var(--rd-edge);
+}
+.edge-bottom-left{
+  border-bottom-left-radius: var(--rd-edge);
+}
+.edge-bottom-right{
+  border-bottom-right-radius: var(--rd-edge);
+}

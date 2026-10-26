@@ -1,0 +1,10 @@
+@import url("variables.css");
+@import url("board.css");
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bk-primary);
+}
